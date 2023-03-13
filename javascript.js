@@ -18,6 +18,7 @@ function newQuote() {
 
   quoteDisplay.innerHTML = randQuote.quote;
   nameDisplay.innerHTML = randQuote.name;
+
 }
 
 
@@ -38,3 +39,5 @@ document.addEventListener("keypress", function (event) {
     newQuote();
   }
 
+ 
+});
